@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InfoverdeCore\InfoverdeCore.csproj" />
+    <ProjectReference Include="..\Leilao.Entities\Leilao.Entities.csproj" />
+    <ProjectReference Include="..\Leilao.Models\Leilao.Models.csproj" />
+  </ItemGroup>
+
+</Project>

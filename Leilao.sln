@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.Entities", "Leilao.Entities\Leilao.Entities.csproj", "{485DB96D-1893-4299-8F11-75525CCC4CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.Api", "Leilao.Api\Leilao.Api.csproj", "{A3908E0F-C2EB-4E6E-8DC9-5A960F13EA88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.Repositories", "Leilao.Repositories\Leilao.Repositories.csproj", "{4A508406-CFE8-4E7E-A992-038C9C4FDD63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.Services", "Leilao.Services\Leilao.Services.csproj", "{B546B486-8E32-4D4C-BC0B-1D3B86B2BA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.Models", "Leilao.Models\Leilao.Models.csproj", "{D9E86355-68B6-4E8D-AAB0-D8341FDEDDDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoverdeCore", "InfoverdeCore\InfoverdeCore.csproj", "{E35F4F00-768E-4F14-B86E-CD1D84540E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.AppConsole", "Leilao.AppConsole\Leilao.AppConsole.csproj", "{BAFEF9D4-750D-4D3D-AFB3-DE25ED995879}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{485DB96D-1893-4299-8F11-75525CCC4CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485DB96D-1893-4299-8F11-75525CCC4CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485DB96D-1893-4299-8F11-75525CCC4CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485DB96D-1893-4299-8F11-75525CCC4CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3908E0F-C2EB-4E6E-8DC9-5A960F13EA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3908E0F-C2EB-4E6E-8DC9-5A960F13EA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3908E0F-C2EB-4E6E-8DC9-5A960F13EA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3908E0F-C2EB-4E6E-8DC9-5A960F13EA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A508406-CFE8-4E7E-A992-038C9C4FDD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A508406-CFE8-4E7E-A992-038C9C4FDD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A508406-CFE8-4E7E-A992-038C9C4FDD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A508406-CFE8-4E7E-A992-038C9C4FDD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B546B486-8E32-4D4C-BC0B-1D3B86B2BA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B546B486-8E32-4D4C-BC0B-1D3B86B2BA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B546B486-8E32-4D4C-BC0B-1D3B86B2BA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B546B486-8E32-4D4C-BC0B-1D3B86B2BA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E86355-68B6-4E8D-AAB0-D8341FDEDDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E86355-68B6-4E8D-AAB0-D8341FDEDDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E86355-68B6-4E8D-AAB0-D8341FDEDDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E86355-68B6-4E8D-AAB0-D8341FDEDDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35F4F00-768E-4F14-B86E-CD1D84540E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35F4F00-768E-4F14-B86E-CD1D84540E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35F4F00-768E-4F14-B86E-CD1D84540E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35F4F00-768E-4F14-B86E-CD1D84540E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFEF9D4-750D-4D3D-AFB3-DE25ED995879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFEF9D4-750D-4D3D-AFB3-DE25ED995879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFEF9D4-750D-4D3D-AFB3-DE25ED995879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFEF9D4-750D-4D3D-AFB3-DE25ED995879}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C825F410-0182-417E-8D8F-9126F8F08CDB}
+	EndGlobalSection
+EndGlobal
